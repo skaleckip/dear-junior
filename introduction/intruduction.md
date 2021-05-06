@@ -1,12 +1,12 @@
-# Panta rhei ... i to szybko!
+# Panta rhei ... tylko szybko!
 
 Mam taką znajomą. Ma zaradnego męża, ale gdy *pojawiło się* drugie dziecko, 
 jej posada na uniwerku z dnia na dzień stała się jakby mniej satysfakcjonująca finansowo.
-Zorientowała się, że firmy desperacko poszukują programistów, i to niekoniecznie po studiach z informatyki. 
-Kupiła kurs programowania w Java, potem jeszcze kurs SQL i złożyła CV. Zawsze miała więcej odwagi.
+Zorientowała się, że firmy desperacko poszukują programistów i to niekoniecznie po studiach z informatyki. 
+Załatwiła sobie kurs programowania w Java, potem jeszcze kurs SQL i od razu dostała się na płatny staż. Zawsze miała więcej odwagi.
 Na początku szło gładko, projekty backend-owe, praca w zespole SCRUM, polubiła Spring Framework. 
 
-A potem zrzucili ją z helikoptera w środek bitwy, pokazali kierunek natarcia i się zaczęło! 
+Po 3 miesiącach stażu, od razu wskoczyła do rozpędzającego się projektu, gdzie zrzucili ją z helikoptera w środek bitwy, pokazali kierunek natarcia i się zaczęło! 
 Kule świstały, koledzy zajęci swoimi problemami, więc nikt nie miał czasu tłumaczyć,
 która amunicja, do którego karabinu pasuje. 
 
@@ -14,7 +14,7 @@ Słowem ... stres.
 
 Na jej szczęście nie miała oporów prosić o pomoc. 
 Jakoś się zmówiliśmy, bo ja akurat miałem garść wolnego czasu między jednym projektem a drugim. 
-Ona ma włoskie korzenie, więc konsultacje między gotowaniem kolacji 
+Na szczęście konsultacje między gotowaniem kolacji 
 a przykuwaniem uwagi całej rodziny i mojej równie towarzyskiej połowy przychodziły jej naturalnie.
 Po pół roku pracy nad co-trudniejszymi zadaniami zrobiło się stabilniej. 
 
@@ -47,18 +47,18 @@ Jest przecież sprawna w kontaktach międzyludzkich, czego nie można powiedzie�
 Na tyle dużo już wie o technologii, aby rozumieć jej ograniczenia.
 Ma już wyczucie, które funkcje będzie prosto zrealizować, a gdzie będą schody
 i lepiej, aby się tzw. *biznes* trzy razy zastanowił czy na pewno są krytyczne.
-A ona akurat nie narcyzem klasy Donalda Trump-a i ma świadomość, 
+A ona akurat nie jest narcyzem klasy Donalda Trump-a i ma świadomość, 
 że nie ma szans ścigać się ze starszyzną o posadę architekta-technologa.
 
 Po co ja Wam to opowiadam? Bo moja znajoma i całe to doświadczenie przypomniało mi, 
 że nasz ryneczek IT rozwija się od kilkudziesięciu lat w tempie iście geometrycznym.
 Pierwsze pokolenie geeków tworzyło produkty praktycznie *od zera*, ucząc się zasadniczo na własnych błędach.
 Drugie budowało na tych fundamentach, rozumiejąc doskonale świat *pod-maską*, bo się na nim wychowało.
-No a moje pokolenie stworzyło już tysiące systemów operacyjnych, dystrybucji, baz danych, serwerów aplikacji,
+No, a moje pokolenie stworzyło już tysiące systemów operacyjnych, dystrybucji, baz danych, serwerów aplikacji,
 języków programowania czy modelowania, bibliotek, framework-ów, metod i narzędzi testowania, silników gier,
 stosów chmurowych i te de i te pe.
 
-A od najmłodszych wymaga się teraz, aby przyswoili te hałdy wiedzy *w locie*.
+A od najmłodszych wymaga się teraz, aby przyswoili te hałdy podstawowej wiedzy *w locie*. Równolegle nadążając za najnowszymi trendami i nowinkami.
 Najlepiej na własny koszt, zanim się w ogóle zatrudnią.
 Bo potem, pod presją osiągnięcia wyniku *na wczoraj*, 
 nie będzie już ani komu, ani kiedy, tłumaczyć standardów, wzorców czy narzędzi. 
