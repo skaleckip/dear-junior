@@ -6,7 +6,7 @@ Zorientowała się, że firmy desperacko poszukują programistów i to niekoniec
 Załatwiła sobie kurs programowania w Java, potem jeszcze kurs SQL i od razu dostała się na płatny staż. Zawsze miała więcej odwagi.
 Na początku szło gładko, projekty backend-owe, praca w zespole SCRUM, polubiła Spring Framework. 
 
-Po 3 miesiącach stażu, od razu wskoczyła do rozpędzającego się projektu, gdzie zrzucili ją z helikoptera w środek bitwy, pokazali kierunek natarcia i się zaczęło! 
+Po 3 miesiącach stażu, z biegu wskoczyła do rozpędzającego się projektu, gdzie zrzucili ją z helikoptera w środek bitwy, pokazali kierunek natarcia i się zaczęło! 
 Kule świstały, koledzy zajęci swoimi problemami, więc nikt nie miał czasu tłumaczyć,
 która amunicja, do którego karabinu pasuje. 
 
@@ -58,7 +58,8 @@ No, a moje pokolenie stworzyło już tysiące systemów operacyjnych, dystrybucj
 języków programowania czy modelowania, bibliotek, framework-ów, metod i narzędzi testowania, silników gier,
 stosów chmurowych i te de i te pe.
 
-A od najmłodszych wymaga się teraz, aby przyswoili te hałdy podstawowej wiedzy *w locie*. Równolegle nadążając za najnowszymi trendami i nowinkami.
+A od najmłodszych wymaga się teraz, aby przyswoili te hałdy fundamentalnej wiedzy *w locie*,
+równolegle nadążając za najnowszymi trendami i nowinkami.
 Najlepiej na własny koszt, zanim się w ogóle zatrudnią.
 Bo potem, pod presją osiągnięcia wyniku *na wczoraj*, 
 nie będzie już ani komu, ani kiedy, tłumaczyć standardów, wzorców czy narzędzi. 
