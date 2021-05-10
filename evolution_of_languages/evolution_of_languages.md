@@ -1,72 +1,82 @@
 # Po co komu tyle języków programowania?
 
-Dawno, dawno temu, kiedy kokaina uchodziła jeszcze w Kalifornii za miękkie dragi, 
-ludzie rozmawiali z komputerami w ich naturalnym języku. 
+Dawno, dawno temu, kiedy kokaina uchodziła jeszcze w Kalifornii za miękkie dragi, ludzie rozmawiali z komputerami w ich
+naturalnym języku.
 
 Słowem ... pełen odlot.
 
 Jedna z takich rozmów mogła przebiegać następująco:
 
-<małe zdjęcie karty perforowanej *ołówkowej*>
+![alt text][karta_dziurkowana]
 
 - Hipis: Hej, komputer! Masz tu listę rozkazów.
-- Komp: (miga lampkami)
-- Hipis: Jak to jak? Jak zwykle. Wsunę Ci kartę perforowaną ...
-- Komp: (buczy okrutnie).
-- Hipis: Weź, mnie nie wkurzaj! Całą noc skreślałem te zakichane cyferki. Czuję się, jakbym cały weekend grał w toto-lotka! Skup się, nadaję ...
-- Komp: (stuka i puka).
-- Hipis: No pewnie, że już liczyłeś silnię z 49. Mówiłem Ci, że gram w totka. 
+- Komputer: (miga lampkami)
+- Hipis: Jak to jak? Jak zwykle. Wsunę Ci kartę perforowaną w ...
+- Komputer: (buczy okrutnie).
+- Hipis: Weź, mnie nie wkurzaj! Całą noc dziurkowałem te cyferki. Czuję się, jakbym grał w Totolotka. Skup się, nadaję !
+- Komputer: (stuka i puka).
+- Hipis: No pewnie, że już liczyłeś silnię z 49. Mówiłem Ci, że gram w Totka.
 
-Programowanie, naprawdę polegało na podawaniu komputerowi rozkazów w postaci ciągów liczb.
-Na przykład ciąg jedynek i zer `10110000 01100001` to rozkaz "Zapamiętaj sobie liczbę 97 w Twoim rejestrze AL". 
+Programowanie naprawdę polegało na podawaniu komputerowi rozkazów jako ciągów liczb. Na przykład
+ciąg `10110000 01100001` to rozkaz "Zapamiętaj sobie liczbę 97 w rejestrze AL".
 
-Pojawiły się klawiatury, a z nimi pierwszy język programowania *wyższego (hic!) niż kod binarny poziomu*.
-Nazywał się assembler (od angielskiego *monter*) i pozwalał stosować tzw. mnemoniki, że niby łatwiej zapamiętać.
-Ten sam rozkaz wygląda w nim tak:
+Pojawiły się klawiatury, a wraz z nimi pierwszy język programowania *wyższego (hic!) poziomu* (niż kod binarny). Nazywał
+się Assembler (od angielskiego *Monter*) i pozwalał stosować tzw. mnemoniki, że niby łatwiej zapamiętać. Ten sam rozkaz
+wraz z komentarzem wygląda w nim tak:
 
-`MOV AL, 61h     ; Bo 97 to szesnastkowo 61`
+`MOV AL, 61h ; Bo 97 to szesnastkowo 61`
 
 Prawda, że GIGANTYCZNA różnica? Wiem, zabawne. A ... jednak postęp.
 
-Bo oto wyszła na jaw pierwsza cecha, której twórcy języków programowania poszukiwali potem nieustannie. 
-Możliwość stosowania własnego, ludzkiego języka, czy nawet języka specyficznego dla konkretnej dziedziny wiedzy. 
-Aby ułatwić, życie programistom tworzone języki będą starały się wyrażać różne konstrukcje 
-w sposób możliwe łatwy do zapamiętania i zrozumienia. Zanim pokażę jakie, wróćmy do naszego hipisa.
+Oto bowiem pojawiła się pierwsza cecha, której twórcy języków programowania szukali odtąd nieustannie. Możliwość
+stosowania własnego, ludzkiego, języka. A najlepiej, języka specyficznego dla konkretnej dziedziny wiedzy. Aby ułatwić
+życie programistom, tworzone języki będą starały się wyrażać różne konstrukcje w sposób możliwe łatwy do zapamiętania,
+zrozumienia i zastosowania.
 
-Postanowił on zyskać wiekopomną sławę wśród geeków całego świata. 
-Skonstruował w garażu własną drukarkę igłową i postanowił napisać dla niej uniwersalny sterownik.
-Rynek się rozwija jak na drożdżach, komputery są szybsze, ładniejsze, i w ogóle.
-Jest jedno *ALE*. Co komputer to ma inny procesor, z inną listą rozkazów, inną liczbą rejestrów itd. 
-Do tego, niektóre potrafią rozmawiać tylko o liczbach 8. bitowych, inne pozwalają już dodawać liczby 16. bitowe. 
-Słychać nawet o POTWORACH umiejących zarówno dodawać liczby 32. bitowe jednym rozkazem, 
-jak i obsługiwać pamięci o 32. bitowych adresach!
+Ale wróćmy do naszego hipisa.
 
-<zdjęcie pierwszych iMac, IBM PC, i czegoś jeszcze >
+Postanowił on zyskać wiekopomną sławę wśród geeków. Skonstruował w garażu własną drukarkę igłową i postanowił napisać
+dla niej uniwersalny sterownik. Rynek rozwija się jak na drożdżach, komputery są szybsze, ładniejsze, i w ogóle.
+
+Jest jedno *ALE*.
+
+Co komputer to ma inny procesor, z inną listą rozkazów, inną liczbą rejestrów pamięci i innymi możliwościami. Niektóre
+potrafią rozmawiać tylko o liczbach 8. bitowych, inne umieją dodawać liczby 16. bitowe. Słychać nawet o POTWORACH
+umiejących dodawać liczby 32. bitowe, a do tego obsługiwać pamięci o 32. bitowych adresach!
+
+![alt text][ibm_pc_classic]
+![alt text][mac_classic]
+![alt text][sun_sparc_workstation]
+<Zrobić montaż o równej wysokości i oświetleniu!>
 
 Słowem ... jak ten świat zasuwa.
 
-No a każda różnica to nie tylko dodatkowa robota, bo albo coś można dodać jednym rozkazem, 
-albo trzeba napisać extra funkcję dodającą liczby po kawałku, ale też okazja do popełnienia głupiego błędu. 
-Bo na przykład jeden procesor zapisuje do pamięci liczbę 16. bitową F090h, 
-zaczynając od młodszego bajtu (tzw. Little Endian), o tak:
+Każda różnica to jednak dodatkowa robota. No bo albo można dodać liczby 16. bitowe jednym rozkazem, albo trzeba napisać
+funkcję dodającą je 8. bitowymi kawałkami. Jak na kartce paperu, 6 + 7 = 13, zatem zapisz 3 i przenieś 1, i tak dalej. A
+do tego znakomita okazja do popełnienia głupiego błędu. Bo na przykład jeden procesor zapisze w pamięci liczbę 16.
+bitową F192h, zaczynając od młodszego bajtu (*Little Endian*), o tak `F1h 92h`, a inny dokładnie odwrotnie (Big Endian),
+czyli tak `92h F1h`. I przesyłając dane do drukarki, trzeba uważać, bo ta akurat oczekuje pierwszego podejścia.
+Sterownik musi kumać, na jakim CPU działa i jeśli trzeba, odwracać przesyłane bajty jak mrówka.
 
-- Pamięć, adres 0000100: F0h
-- Pamięć, adres 0000101: 90h
+<proponuję przyjąć formułę CIEKAWOSTEK, z osobną małą reklamą, w osobnym okienku. Tu np. informację, że są CPU, które
+pozwalają wybrać czy zapisują dane w stylu Little, czy Big Endian.>
 
-A inny procesor, dokładnie odwrotnie (tzw. Big Endian):
-
-- Pamięć, adres 0000100: 90h
-- Pamięć, adres 0000101: F0h
-
-Więc trzeba uważać, przesyłając dane do drukarki, bo ta oczekuje pierwszego podejścia.
-I sterownik musi wiedzieć, na jakim CPU działa i gdy trzeba, odwracać przesyłane dane jak mrówka.
-
-<proponuję przyjąć formułę, CIEKAWOSTKA, z osobną małą reklamą, w osobnym okienku.
-Tu informację, że są CPU, które pozwalają wybrać, jak zapisują dane.>
-
-Nasz hippis słyszał o nowych językach programowania "wyższego (jak zwykle) poziomu".
-Namnożyło się ich na rynku jak grzybów po deszczu <listę *wymarłych* języków podać jako CIEKAWOSTKĘ>.
-Jeden zdobywa straszną popularność, również wśród autorów sterowników, nazywają go C.
-Można napisać coś raz, *po ludzku*, i taki program zwany kompilatorem sam to dopasuje do różnych CPU.
+Nasz hippis słyszał już o nowych językach programowania "wyższego poziomu". Namnożyło się ich na rynku jak grzybów po
+deszczu, ADA, FORTRAN, COBOL, C. Jeden zdobywa wyjątkową popularność, szczególnie wśród autorów sterowników. ZWĄ GO *C*.
+Nie, nie widzieli jeszcze *Man In Black*. Można napisać coś raz, *standardowo*, a kompilator tego języka C sam *
+wygeneruje* kod binarny odpowiedni dla różnych CPU.
 
 Słowem ... totalny odlot!
+
+<listę *wymarłych* języków podać jako CIEKAWOSTKĘ>.
+
+I tu dochodzimy do kolejnej cechy języków. Chodzi, o PRZENOŚNOŚĆ, czyli ukrywanie różnic między sprzętem, na którym
+działają programy.
+
+[karta_dziurkowana]: images/Karta_dziurkowana_1.jpg "Karta dziurkowana"
+
+[ibm_pc_classic]: images/IBM_PC_5150.jpg "IBM PC Classic"
+
+[mac_classic]: images/Macintosh_classic.jpg "Apple Macintosh Classic"
+
+[sun_sparc_workstation]: images/Sun_SPARC_Workstation.jpg "Sun SPARC Workstation"
