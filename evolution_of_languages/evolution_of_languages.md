@@ -18,7 +18,7 @@ Jedna z takich rozmów mogła przebiegać następująco:
 - Hipis: No pewnie, że już liczyłeś silnię z 49. Mówiłem Ci, że gram w Totka.
 
 Programowanie naprawdę polegało na podawaniu komputerowi rozkazów jako ciągów liczb. Na przykład
-ciąg `10110000 01100001` to rozkaz "Zapamiętaj sobie liczbę 97 w rejestrze AL".
+ciąg `10110000 01100001` to rozkaz *Zapamiętaj sobie liczbę 97 w rejestrze AL*.
 
 Pojawiły się klawiatury, a wraz z nimi pierwszy język programowania *wyższego (hic!) poziomu* (niż kod binarny). Nazywał
 się Assembler (od angielskiego *Monter*) i pozwalał stosować tzw. mnemoniki, że niby łatwiej zapamiętać. Ten sam rozkaz
@@ -61,7 +61,7 @@ Sterownik musi kumać, na jakim CPU działa i jeśli trzeba, odwracać przesyła
 <proponuję przyjąć formułę CIEKAWOSTEK, z osobną małą reklamą, w osobnym okienku. Tu np. informację, że są CPU, które
 pozwalają wybrać czy zapisują dane w stylu Little, czy Big Endian.>
 
-Nasz hippis słyszał już o nowych językach programowania "wyższego poziomu". Namnożyło się ich na rynku jak grzybów po
+Nasz hippis słyszał już o nowych językach programowania *wyższego poziomu*. Namnożyło się ich na rynku jak grzybów po
 deszczu, ADA, FORTRAN, COBOL, C. Jeden zdobywa wyjątkową popularność, szczególnie wśród autorów sterowników. ZWĄ GO *C*.
 Nie, nie widzieli jeszcze *Man In Black*. Można napisać coś raz, *standardowo*, a kompilator tego języka C sam *
 wygeneruje* kod binarny odpowiedni dla różnych CPU.
